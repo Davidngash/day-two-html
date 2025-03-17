@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>HTML lists,Images,Tables & forms</title>
+        </head>
+        <body>
+            <h2>Ordered lists</h2>
+            <ol type ="1.0" start = "100.0">
+                <li> Kenya</li>
+                <li>Uganda</li>
+                <li>Tanzania</li>
+                <li> Nigeria</li>
+            </ol>
+            <h2>Un Ordered lists</h2>
+            <ul
+                type = "circle">
+                <li>Ghana</li>
+                <li>South Africa</li>
+                <li>Rwanda</li>
+                <li>Morocco</li>
+            </ul>
+            <h2>Definition lists</h2>
+            <dl>
+                <dt>HTML</dt>
+                <dd> Hyperr Text Markup Language</dd>
+            </dl>
+            <h3>
+                <img src="landcruiser new suv.jpeg" alt="Image of a toyota suv"height="100",width="100">
+            </h4>
+            <h4>External Images</h3>
+            <img src="https://images.pexels.com/photos/4781948/pexels-photo-4781948.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                 alt="Image of a toyota Suv" height= "100",width="100">
+            <table border="1"
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>age</th>
+                        <th>country</th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>John</td>
+                            <td>23</td>
+                            <td>Kenya</td>
+                        </tr>
+                        <tr>  
+                            <td>Maggy</td>
+                            <td>25</td>
+                            <td>Kenya</td>
+                        </tr>
+                        <tr>  
+                            <td>David</td>
+                            <td>25</td>
+                            <td>Kenya</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </thead>
+            </Table>
+            <form action="" method="">
+                <label for="full_name">Full Name:</label>
+                <input type = "Text" id= "Full_name" name="full_name" required placeholder="">
+                <br><br>
+                <label for ="Email">Email:</label>
+                <input type="Email" Name = "Email" placeholder="dngangajm@gmailcom">
+                <br><br>
+                <label for="password"> password :</label>
+                <input type="password" id=" password" name="password">
+                <label for="Address"> Address:</label>
+                <input type="text" id="address" name= "address"placeholder="Your address">
+                <br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="male"> Male
+                <br><br>
+                <label for="hobby"> Hobbies:</label>
+                <input type="checkbox" name="hobby" value="travel"> Travel
+                <input type="checkbox" name="hobby" value="music"> Music
+                <input type="checkbox" name="hobby" value="reading"> Reading
+                <input type="checkbox" name="hobby" value="swimming"> swimming
+                <br><br>
+                <label>country</label>
+                <select name="country" id="country">
+                    <option>--Select Country--</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Tanzania">Tanzania</option>
+                </select>
+                <br><br>
+                <button type ="submit" > submit </button>
+                <input type="reset" value="cancel/Reset">
+            </form>
+        </body>
+    </html>
